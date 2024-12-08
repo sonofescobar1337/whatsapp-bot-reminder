@@ -1,0 +1,31 @@
+{
+  "name": "project-iseng1",
+  "version": "1.0.0",
+  "description": "Whatsapp bot reminder",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofescobar1337/whatsapp-reminder-bot.git"
+  },
+  "keywords": [
+    "whatsapp-reminder-bot",
+    "reminder",
+    "reminder-bot",
+    "bot-reminder"
+  ],
+  "author": "sonofescobar1337",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonofescobar1337/whatsapp-reminder-bot/issues"
+  },
+  "homepage": "https://github.com/sonofescobar1337/whatsapp-reminder-bot#readme",
+  "dependencies": {
+    "node-schedule": "^2.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
